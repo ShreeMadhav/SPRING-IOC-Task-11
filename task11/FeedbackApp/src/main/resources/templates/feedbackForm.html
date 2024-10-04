@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Submit Feedback</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+<body>
+    <h2>Submit your feedback</h2>
+    <form action="/submitFeedback" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="bookName">Book Name:</label><br>
+        <input type="text" id="bookName" name="bookName"><br>
+        <label for="feedback">Feedback:</label><br>
+        <textarea id="feedback" name="feedback"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
